@@ -9,7 +9,7 @@ Contents re-collected here with permission of the author, by Dylan Kinnett.
 Usage
 -----
 
-The `index.txt` should be a perfectly workable way to read through the book reviews.
+The `index.md` should be a perfectly workable way to read through the book reviews, using any text editor or markdown viewer.
 
 You can also build an html version, to include a table of contents using [Jekyll](https://jekyllrb.com/) and the command `jekyll serve`. Results will look something like the page at https://nocategories.net/basinski-book-reviews/
 
