@@ -1,9 +1,20 @@
 ---
 layout: default
 title: Michael Basinski's Book Reviews
-excerpt: Poetry Book Reviews, 2000-2005
+excerpt: These reviews describe works by poets and publishers at a time right before the web became ubiquitous, so they are a useful archive of rare materials as well as an enjoyable read. 
+author: Michael Basinski
+rights:  MIT License
+language: en-US
 toc: true
 ---
+
+# Michael Basinski's Book Reviews
+
+Michael Basinski contributed these reviews of poetry publications to a webzine called <a href="http://web.archive.org/web/20090301055656/http://the-hold.com:80/index1.html">The Hold</a>, from 2000-2005. He was the Associate Curator of The Poetry/Rare Books Collection SUNY at Buffalo.
+
+The reviews describe works by poets and publishers at a time right before the web became ubiquitous, so they are a useful archive of rare materials as well as an enjoyable read. 
+
+Copyright (c) 2005 Michael Basinski. Reproduced here and released under MIT License with permission of the author.
 
 
 May 2000
@@ -229,7 +240,7 @@ ZZZ ZYNE No. XXVIII
 
 July 2000. JVC Books, Editor Joyce Metzger, 509 N. 12th Avenue, Arcadia, Florida 34266. Single issues $4.00 - check it out. Subscription is $15.00 - check it out of a year.<br/> Are we serious about this? Four bucks is Christmas tree needles under the carpet, dead ants, a pound mushy molding smushrooms, a gallon a gopher gas in Afghanistan&hellip;.! Joyce and Wendell Metzger are out there doing it and you can do it also with a fist of four dollars and a few bird feathers in your gapping poetic maw. So get together the four bucks. I know you got more than four between the couch cushions or under the front seat in the car. Take some soda cans back or all those beer cans on back porch. What's wrong with you reader? Take ZZZ ZYNE No. XXVIII (this means 28 in Roman). In the middle is a best poem by Antler called: Job Replacement for Loggers of Old Growth. This poem itself is worth a few crappy dollars. Look the government is making all the money look like play money - so you can buy more over-priced CDs which you never listen too, or dig up your front lawn and plant more marigolds. Therefore the logic is poetry - but only if you want it like the poems in this ZZZ ZYNE: d.a. levy and Lyn Lifshin, John Bennet and Catfish, Kit, Kevin, Kell. A conglomerate of assorted passion semi-truck on the thruway explosive poems by the escaping prisoners of the ordinary birdbaths of your Uncle Dork's dilapidated, decapitated condo.
 
-Serving_Suggestion
+Serving Suggestion
 -------------------------------------------------------------------------------
 Issue 1, Summer 2000. Serving Suggestion, 19 Valley Green Circle, Penfield, NY 14526 - 1 Buck an Issue - Not bad!) or contact Carol at [bungle83@hotmail.com](mailto:bungle83@hotmail.com)  
 Serving Suggestion is a brand new poetry zine now open for business. At a dollar a sample issue it is ON SALE and good for you to get a heaping helping of poetry from the visual poem to the regular pump poetry gas. Yes, a three square meal deal with Serving - something you should do. Probably also send some poems along with the $1.00. But do tip the cook and waitress and bus boy and dishwasher. See work by Eric Rosolowski (and check out more at: epc.buffalo.edu/gallery), read poems by Karen Kuehmeier - no doubt one of the wonderful and I mean Wonder filled and exciting wild poem poets now about and active writing, and then there is a spectacular drawing by an internationally recognized master of the great complexities of James Joyce (just back from a lecture tour which found him in London, Paris and Jerusalem) - yes - non other than that Joyce master: Sam Slote. Well - I mean you see Serving Sugg. is hardly a zine hidden in the woods - but it will be there too. So do it! - I know - let me repeat - send a buck. Send some poems.
@@ -498,9 +509,8 @@ Love Sex Death Dreams by Kevin M. Hibshman
 
 Green Bean Press, PO Box 237, New York, New York, 10013. E-mail:[gbpress@earthlink.net](mailto:gbpress@earthlink.net?subject=the hold book reviews) 36 pages. A chap. Very nicely did. Costs: $5.00  
 Hibshman edits a poetry magazine called <cite>Fearless</cite>. He's been around and you can read him in a liquor store full of poetry magazines: Midnite Toast, Sink Full of Dishes, Coke Fishing in Alpha Beat Soup, Not Dead But Dreaming and quarts more. So, I said, alright, let's go. What does this fearless lad have to offer. And I must admit, I was surprised because Hibshman can spin the line: 
-```
-Jesus was strung up at thirty-three/ I am just strung out_ - - -_innocence being fucked in the men's room of life's last bus top_ - - -_I feel like the first cunt ever fucked as liquid hands grip my prick in a glorious spasm draining infinity from the center of existence silver disc skim a river of sand whirling with the soft hum of the ages as I come a lifetime_&hellip;.
-```
+
+> Jesus was strung up at thirty-three / I am just strung out- - -innocence being fucked in the men's room of life's last bus top- - -I feel like the first cunt ever fucked as liquid hands grip my prick in a glorious spasm draining infinity from the center of existence silver disc skim a river of sand whirling with the soft hum of the ages as I come a lifetime...
 
 And there is this riff from his poem Sylvia Plath:
 

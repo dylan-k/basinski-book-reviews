@@ -4,14 +4,20 @@
 
 The reviews describe the works of poets and publishers at a time right before the web became ubiquitous, so they are a useful archive as well as an enjoyable read.
 
-Contents re-collected here with permission of the author, by Dylan Kinnett.
+Copyright (c) 2005 Michael Basinski. Reproduced here and released under MIT License with permission of the author.
 
 Usage
 -----
 
 The `index.md` should be a perfectly workable way to read through the book reviews, using any text editor or markdown viewer.
 
-You can also build an html version, to include a table of contents using [Jekyll](https://jekyllrb.com/) and the command `jekyll serve`. Results will look something like the page at https://nocategories.net/basinski-book-reviews/
+You can build an html version, to include a table of contents using [Jekyll](https://jekyllrb.com/) and the command `jekyll serve`. Results will look something like the page at https://nocategories.net/basinski-book-reviews/
+
+You can build an EPUB version using
+```bash
+pandoc -o michael-basinski-book-reviews.epub index.md  --epub-cover-image=basinski-reviews-cover.png --toc
+```
+to get something like https://nocategories.net/basinski-book-reviews/michael-basinski-book-reviews.epub
 
 Potential Upgrades
 ----------------------
@@ -83,5 +89,3 @@ Structuring the book data into YAML or JSON would allow for embedded metadata, w
 }
 </script>
 ```
-
-
