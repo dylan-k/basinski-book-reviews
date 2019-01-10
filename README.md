@@ -17,7 +17,7 @@ You can build an EPUB version using
 ```bash
 pandoc -o michael-basinski-book-reviews.epub index.md  --epub-cover-image=basinski-reviews-cover.png --toc
 ```
-to get something like https://nocategories.net/basinski-book-reviews/michael-basinski-book-reviews.epub
+to get something like https://nocategories.net/assets/epub/michael-basinski-book-reviews.epub
 
 Potential Upgrades
 ----------------------
