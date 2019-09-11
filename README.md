@@ -39,7 +39,10 @@ Structuring the book data into YAML or JSON would allow for embedded metadata, w
       "@type": "Book",
       "isbn": "00000000",
       "name": "title of book",
-      "author": "author fullname",
+      "author": {
+        "@type": "Person",
+        "name": "Jene du Toit"
+      },
       "numberOfPages": "99",
       "datePublished": "2000",
       "offers": {
@@ -48,36 +51,11 @@ Structuring the book data into YAML or JSON would allow for embedded metadata, w
       "priceCurrency": "USD"
       },
       "publisher": {
-      "@type": "Organization",
-      "name": "publisher name",
-      "address": "publisher address",
-      "url": "http://www.example.com/",
-      "email": "test@example.com"
-      },
-      "review": {
-      "dateCreated": "2000-01",
-      "author": "reviewer fullname",
-      "reviewBody": "text of review"
-      }
-    },
-    {
-      "@type": "Book",
-      "isbn": "00000000",
-      "name": "title of book",
-      "author": "author fullname",
-      "numberOfPages": "99",
-      "datePublished": "2000",
-      "offers": {
-      "@type": "Offer",
-      "price": "6.99",
-      "priceCurrency": "USD"
-      },
-      "publisher": {
-      "@type": "Organization",
-      "name": "publisher name",
-      "address": "publisher address",
-      "url": "http://www.example.com/",
-      "email": "test@example.com"
+        "@type": "Organization",
+        "name": "publisher name",
+        "address": "publisher address",
+        "url": "http://www.example.com/",
+        "email": "test@example.com"
       },
       "review": {
       "dateCreated": "2000-01",
