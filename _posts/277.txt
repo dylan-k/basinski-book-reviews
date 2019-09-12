@@ -1,4 +1,4 @@
-----
+---
 title: La Perruque Editions 
 author: "Daniel Bouchard"
 cite: "Slack Buddha Press. 50 Garrison Avenue, Somerville, MA 02144"

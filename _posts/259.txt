@@ -1,10 +1,8 @@
-----
-title: FUCK! Volume 7, Number four. April 2004. - Edited by Lee Thorn
-author: "xxx"
-cite: "xxx"
 ---
-
-Subscription is $20.00. Published monthly. Address is: Lee Thorn, Box 85571, Tucson, AZ 85754.
+title: "FUCK! Volume 7, Number four. April 2004.""
+author: "Edited by Lee Thorn" 
+cite: "Subscription is $20.00. Published monthly. Address is: Lee Thorn, Box 85571, Tucson, AZ 85754."
+---
 
 FUCK! is looking for highly original short poems on any subject and art that will photocopy well. Payment is in small unmarked bills. Open to small press poetry and visual poetry also. &hellip;as it should be. Now, me think that Thorn never got an award for FUCK! and maybe not for poemistry either. But for my money the poem what I quote below in its entirety defines more than a life time of dull poetry works by most the supposed teachers and gods of lit: This is the poem and it is FUCK! and it is Thorn:
 ```
@@ -18,5 +16,3 @@ and a sledge
 I'm 60
 kiss my ass
 ```
-
-Close that Cellar Door! - Audio Poe tics![Audio Poetics](graphics/audioicon.gi 

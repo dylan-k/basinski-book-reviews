@@ -1,4 +1,4 @@
-----
+---
 title: The Mystical Exercycle by Gerald Locklin
 author: "xxx"
 cite: "xxx"

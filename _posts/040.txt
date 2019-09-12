@@ -1,4 +1,4 @@
-----
+---
 title: Black Bear Review
 author: "xxx"
 cite: "xxx"

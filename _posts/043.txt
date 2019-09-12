@@ -1,4 +1,4 @@
-----
+---
 title: Bender Magazine
 author: "xxx"
 cite: "xxx"

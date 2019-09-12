@@ -1,4 +1,4 @@
-----
+---
 title: "The Closeouts"
 author: "Matthew Wascovich"
 cite: "xxx"

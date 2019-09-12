@@ -1,4 +1,4 @@
-----
+---
 title: I Saw the Best Minds of My Generation by 
 author: "A. D. Winans"
 cite: "xxx"

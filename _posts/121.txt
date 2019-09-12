@@ -1,4 +1,4 @@
-----
+---
 title: Dillinger's Thompson by Todd Moore
 author: "xxx"
 cite: "xxx"

@@ -1,4 +1,4 @@
-----
+---
 title: Notes from the Bounty Bar - Issue 2 
 author: "xxx"
 cite: "xxx"

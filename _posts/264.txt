@@ -1,4 +1,4 @@
-----
+---
 title: Prose Elements (1969-2003)
 author: "Thomas Lowe Taylor"
 cite: "xxx"

@@ -1,4 +1,4 @@
-----
+---
 title: The Whirligig (Pulp with a Pulse) - Issue 3
 author: "xxx"
 cite: "xxx"

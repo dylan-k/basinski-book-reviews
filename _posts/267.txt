@@ -1,4 +1,4 @@
-----
+---
 title: The Allegories
 author: "Dan Sicoli"
 cite: "xxx"

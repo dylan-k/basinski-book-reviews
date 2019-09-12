@@ -1,4 +1,4 @@
-----
+---
 title: "HAT: a one-page magazine"
 author: "edited by Ross Priddle"
 cite: "Imp press, 21 Valleyview Drive SW, Medicine Hat, Alberta, E1A 7K5. Canada."

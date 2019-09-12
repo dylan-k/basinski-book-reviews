@@ -1,4 +1,4 @@
-----
+---
 title: Mt. Houghton Miscellany
 author: "xxx"
 cite: "xxx"

@@ -1,4 +1,4 @@
-----
+---
 title: The Author's Not Quite Dead by Gerald Locklin
 author: "xxx"
 cite: "xxx"

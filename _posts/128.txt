@@ -1,4 +1,4 @@
-----
+---
 title: Isotopes by Dan Zimmerman
 author: "xxx"
 cite: "xxx"

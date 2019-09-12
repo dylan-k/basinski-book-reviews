@@ -1,4 +1,4 @@
-----
+---
 title: Down and Out by Gerald Locklin, with illustrations by David Hernandez
 author: "xxx"
 cite: "xxx"

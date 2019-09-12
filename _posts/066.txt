@@ -1,4 +1,4 @@
-----
+---
 title: Haight Ashbury Literary Journal
 author: "xxx"
 cite: "xxx"

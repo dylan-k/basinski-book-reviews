@@ -1,4 +1,4 @@
-----
+---
 title: Boston: A Long Poem by Hugh Fox
 author: "xxx"
 cite: "xxx"

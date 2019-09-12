@@ -1,4 +1,4 @@
-----
+---
 title: Kirpin Press Books
 author: "Kirpin Press"
 cite: "PO Box 2943,Vancouver, WA 98668-2943"

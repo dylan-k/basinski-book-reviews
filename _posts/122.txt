@@ -1,4 +1,4 @@
-----
+---
 title: Appalachian Koans by Mark Hartenbach
 author: "xxx"
 cite: "xxx"

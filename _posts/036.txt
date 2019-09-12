@@ -1,4 +1,4 @@
-----
+---
 title: Minor 6 by Mark Weber
 author: "xxx"
 cite: "xxx"

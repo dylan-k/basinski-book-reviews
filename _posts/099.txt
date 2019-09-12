@@ -1,4 +1,4 @@
-----
+---
 title: Poesy: A Publication for Poetry and the Arts
 author: "xxx"
 cite: "xxx"

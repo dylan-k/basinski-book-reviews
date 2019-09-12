@@ -1,4 +1,4 @@
-----
+---
 title: Exit 13 Magazine 
 author: "xxx"
 cite: "xxx"

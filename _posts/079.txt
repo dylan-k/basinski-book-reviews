@@ -1,4 +1,4 @@
-----
+---
 title: Unarmed: adventurous poetry journal
 author: "xxx"
 cite: "xxx"

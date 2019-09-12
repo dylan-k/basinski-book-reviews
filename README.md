@@ -19,6 +19,14 @@ pandoc -o michael-basinski-book-reviews.epub index.md  --epub-cover-image=basins
 ```
 to get something like https://nocategories.net/assets/epub/michael-basinski-book-reviews.epub
 
+## TODO
+
+- [x] one file per review
+- [ ] yaml data for title, author, desc
+- [ ] yaml data for isbn, issn
+- [ ] yaml data for publisher
+- [ ] eventually.. contribute book records to openlibrary.org
+
 Potential Upgrades
 ----------------------
 

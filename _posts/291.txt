@@ -1,4 +1,4 @@
-----
+---
 title: "O Outbreak"
 author: "Kevin Thurston"
 cite: "xxx"

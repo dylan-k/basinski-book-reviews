@@ -1,4 +1,4 @@
-----
+---
 title: "you know how it goes"
 author: "ron androla, art by filipski"
 cite: "xxx"

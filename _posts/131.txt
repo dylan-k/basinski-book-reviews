@@ -1,4 +1,4 @@
-----
+---
 title: Anabasis/Xtant
 author: "xxx"
 cite: "xxx"

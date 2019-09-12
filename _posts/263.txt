@@ -1,4 +1,4 @@
-----
+---
 title: "Tablets 1 through Tablets 4"
 author: "Peter Ganick"
 cite: "xxx"

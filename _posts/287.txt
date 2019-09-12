@@ -1,4 +1,4 @@
-----
+---
 title: "The Dew Neal"
 author: "Douglas Manson"
 cite: "Slack Buddha Press, 50 Garrison Avenue, Somerville, MA 02144."

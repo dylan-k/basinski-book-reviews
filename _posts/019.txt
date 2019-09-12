@@ -1,4 +1,4 @@
-----
+---
 title: "Serving Suggestion"
 author: "Serving Suggestion"
 cite: "Issue 1, Summer 2000. Serving Suggestion, 19 Valley Green Circle, Penfield, NY 14526"

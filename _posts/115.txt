@@ -1,4 +1,4 @@
-----
+---
 title: O-D-E by Joel Chase
 author: "xxx"
 cite: "xxx"

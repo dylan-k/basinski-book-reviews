@@ -1,4 +1,4 @@
-----
+---
 title: Two Publications from Fort Apache Publishing
 author: "xxx"
 cite: "xxx"
