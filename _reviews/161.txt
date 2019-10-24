@@ -1,5 +1,5 @@
 ---
-title: Spread: "The Monthly Journal of Poetry"
+title: "Spread: The Monthly Journal of Poetry"
 author: "C. Dusterhoff, editor"
 cite: "SPAKSTRA PRESS. PO Box 224, Seattle, WA. 98111"
 ---

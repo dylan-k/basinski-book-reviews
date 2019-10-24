@@ -2,7 +2,7 @@
 
 [Michael Basinski](https://www.poetryfoundation.org/poets/michael-basinski) contributed nearly 300 reviews of poetry publications to a webzine called <cite>[The Hold](https://web.archive.org/web/20090301055656/http://the-hold.com:80/index1.html)</cite>, from 2000-2005. He was the Associate Curator of [The Poetry/Rare Books Collection SUNY at Buffalo](https://library.buffalo.edu/pl/about/).
 
-The reviews describe the works of poets and publishers at a time right before the web became ubiquitous, so they are a useful archive as well as an enjoyable read.
+The reviews describe the works of poets and publishers at a time right before the web became ubiquitous, providing a useful archive and an enjoyable read.
 
 Copyright (c) 2005 Michael Basinski. Reproduced here and released under MIT License with permission of the author.
 
@@ -36,42 +36,45 @@ Most links' URLs are outdated, so they've all been repointed to archived version
 
 Normalize the title of each review. Probably best to use simply "{book} by {author}" since that's already most common.
 
-Structuring the book data into YAML or JSON would allow for embedded metadata, which in turn could provide better search visibility for these rare books. Something like this perhaps:
-```html
-<script type='application/ld+json'>
+Structuring the book data into YAML or JSON would allow for embedded metadata, to provide better search visibility for the books. A template:
+
+```json
 {
-  "@context": "http://schema.org/",
-  "@graph":
-  [
-    {
-      "@type": "Book",
-      "isbn": "00000000",
-      "name": "title of book",
-      "author": {
-        "@type": "Person",
-        "name": "Jene du Toit"
-      },
-      "numberOfPages": "99",
-      "datePublished": "2000",
-      "offers": {
-      "@type": "Offer",
-      "price": "6.99",
-      "priceCurrency": "USD"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "publisher name",
-        "address": "publisher address",
-        "url": "http://www.example.com/",
-        "email": "test@example.com"
-      },
-      "review": {
-      "dateCreated": "2000-01",
-      "author": "reviewer fullname",
-      "reviewBody": "text of review"
-      }
+  "@context": "https://schema.org/",
+  "@type": "CriticReview",
+  "datePublished": "2000-01",
+  "reviewBody": "text of review",
+  "description": "use the cite info from yaml",
+  "publisher": "The Hold",
+  "url": "#",
+  "author": {
+    "@type": "Person",
+    "name": "Michael Basinski",
+    "SameAs": [
+      "https://en.wikipedia.org/wiki/Michael_Basinski",
+      "https://www.poetryfoundation.org/poets/michael-basinski",
+      "http://www.ubu.com/contemp/basinski/index.html",
+      "https://jacket2.org/content/michael-basinski"
+    ]
+  },
+  "itemReviewed": {
+    "@type": "Book",
+    "isbn": "00000000",
+    "name": "title of book",
+    "author": { 
+      "@type": "Person",
+      "name": "book author",
+      "sameAs": "#"
+    },
+    "numberOfPages": "99",
+    "datePublished": "2000",
+    "publisher": {
+      "@type": "Organization",
+      "name": "publisher name",
+      "address": "publisher address",
+      "url": "http://www.example.com/",
+      "email": "test@example.com"
     }
-  ]
+  }
 }
-</script>
 ```

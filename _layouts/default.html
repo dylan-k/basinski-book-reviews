@@ -1,37 +1,9 @@
-<!doctype html>
-<html class="no-js" lang="">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ page.title }}</title>
-  <meta name="description" content="{{ page.excerpt }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <style>
-    {% include bootstrap.min.css %}
-    {% include docs.min.css %}
-  </style>
-</head>
-
-<body class="markdown-body">
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-<div class="container-fluid">
-  <div class="row flex-xl-nowrap">
-    <div class="d-none d-xl-block col-xl-4 bd-toc">
-      {% include toc.html html=content sanitize=true class="section-nav" item_class="toc-entry toc-h%level%" %}
-    </div>
-    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
-          {{ content }}
-    </main>
-  </div>
-</div>
-</body>
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }} | {{ site.title }} </title>
+  </head>
+  <body>
+    {{ content }}
+  </body>
 </html>

@@ -22,11 +22,25 @@ title: Michael Basinski's Book Reviews
 email: webmaster@nocategories.net
 description: "Michael Basinski contributed these reviews of poetry publications to a webzine called The Hold, from 2000-2005. He was the Associate Curator of The Poetry/Rare Books Collection SUNY at Buffalo."
 
+markdown_ext:   "txt,markdown,mkdown,mkdn,mkd,md"
+layout: post
 
 # Build settings
+collections:
+  reviews:
+    output: true
+
+defaults:
+  - scope:
+      path: "_reviews"
+      type: reviews
+    values:
+      layout: post
+
+
 plugins:
   - jekyll-toc
-markdown_ext:   "txt,markdown,mkdown,mkdn,mkd,md"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

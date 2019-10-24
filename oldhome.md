@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: oldhome
 title: Michael Basinski's Book Reviews
 excerpt: These reviews describe works by poets and publishers at a time right before the web became ubiquitous, so they are a useful archive of rare materials as well as an enjoyable read. 
 author: Michael Basinski
