@@ -1,9 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ page.title }} | {{ site.title }} </title>
-  </head>
-  <body>
-    {{ content }}
-  </body>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <style type="text/css">
+    /* Custom page CSS
+-------------------------------------------------- */
+    /* Not required for template or sticky footer method. */
+
+    .container {
+      width: auto;
+      max-width: 680px;
+      padding: 0 15px;
+    }
+
+    .footer {
+      background-color: #f5f5f5;
+    }
+  </style>
+
+  <title>{{site.title}}</title>
+  <meta name="description" content="These reviews describe works by poets and publishers at a time right before the web became ubiquitous, so they are a useful archive of rare materials as well as an enjoyable read.">
+</head>
+
+<body>
+
+  <header class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1>{{site.title}}</h1>
+        <p>Michael Basinski contributed nearly 300 reviews of poetry publications to a webzine called <cite>The Hold</cite>, from 2000-2005. He was the Associate Curator of The Poetry/Rare Books Collection SUNY at Buffalo. The reviews describe the works of poets and publishers at a time right before the web became ubiquitous, providing a useful archive and an enjoyable read.</p>
+      </div>
+      <div class="col-md-5">
+        <h4 class="text-white">Info</h4>
+        <ul class="list-unstyled">
+          <li><a href="https://en.wikipedia.org/wiki/Michael_Basinski" class="text-white">Michael Basinski</a></li>
+          <li><a href="http://www.ubu.com/contemp/basinski/index.html" class="text-white">@ UbuWeb</a></li>
+          <li><a href="https://www.poetryfoundation.org/poets/michael-basinski" class="text-white">@ Poetry Foundation</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+
+  <main role="main" class="flex-shrink-0">
+    <div class="container">
+
+      <ul>
+        {% for post in site.reviews %}
+        <li>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </li>{% endfor %}
+      </ul>
+
+    </div>
+  </main>
+
+
+  <footer>
+    <p>Copyright &copy; Michael Basinski. Released under MIT License.</p>
+  </footer>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
