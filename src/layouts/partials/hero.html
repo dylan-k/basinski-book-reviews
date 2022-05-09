@@ -1,0 +1,30 @@
+<div class="masthead py-5">
+  <div class="mb-4 text-center text-lg-start">
+    <div class="ms-3 ms-lg-0">
+      <h1 class="mb-1 mb-lg-2 f1 fw-600">Michael Basinski's Book Reviews</h1>
+      <p class="col-sm-8 col-lg-12 mx-auto mb-0 mb-lg-4">
+        Michael Basinski contributed nearly 300 reviews of poetry publications to a webzine called The Hold, from 2000-2005. He was the Associate Curator of The Poetry/Rare Books Collection SUNY at Buffalo. The reviews describe the works of poets and publishers at a time right before the web became ubiquitous, providing a useful archive and an enjoyable read.
+      </p>
+      <p>About Michael Basinski:
+      </p>
+      <ul class="list-unstyled">
+        <li><a href="https://en.wikipedia.org/wiki/Michael_Basinski">Michael Basinski @ Wikipedia</a></li>
+        <li><a href="http://www.ubu.com/contemp/basinski/index.html">Michael Basinski @ UbuWeb</a></li>
+        <li><a href="https://www.poetryfoundation.org/poets/michael-basinski">Michael Basinski @ Poetry Foundation</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <nav class="nav nav-pills justify-content-center flex-lg-column justify-content-lg-start gap-1 sidebar-nav">
+    <a class="nav-link d-flex align-items-center{{ if .IsHome }} active fw-600{{ else }} text-dark{{ end }}" href="/basinski-book-reviews/">
+      <svg class="bi me-2 f5 bd-text-purple"><use xlink:href="#file-earmark-richtext"></use></svg>
+      All posts
+    </a>
+    <a class="nav-link d-flex align-items-center{{ if eq .Page.Title "Archive" }} active fw-600{{ else }} text-dark{{ end }}" href="/basinski-book-reviews/archive/">
+      <svg class="bi me-2 f5 text-primary"><use xlink:href="#archive"></use></svg>
+      Archive
+    </a>
+
+  </nav>
+
+</div>

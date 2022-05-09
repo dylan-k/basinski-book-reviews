@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}" class="no-js">
+  <head>
+    {{ partial "head" . }}
+  </head>
+  <body>
+    {{ partial "icons" . }}
+    {{ partial "navbar" . }}
+
+    <div class="container-xxl px-4 px-xxl-2">
+      <div class="d-lg-grid" id="content">
+        <div class="sidebar">
+          {{ partial "hero" . }}
+        </div>
+        <div class="main">
+          {{ block "main" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    {{ partial "footer" . }}
+
+    {{ partial "scripts" . }}
+  </body>
+</html>

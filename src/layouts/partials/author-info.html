@@ -1,0 +1,10 @@
+{{- /* Accepts 2 parameters, the "context" and "lazyload" */ -}}
+
+{{- $author := .context.Page.Params.author -}}
+{{- $cite := .context.Page.Params.cite -}}
+<div class="d-flex align-items-center mb-4 text-muted author-info">
+    <span>by {{ $author }}</span>
+  <span class="d-flex align-items-center ms-3">
+    {{ $cite }}
+  </span>
+</div>

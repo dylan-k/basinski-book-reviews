@@ -1,0 +1,122 @@
+//
+// Resets
+//
+
+a {
+  text-decoration-color: rgba(var(--bs-primary-rgb), .25);
+  text-underline-offset: .25rem;
+
+  &:hover,
+  &:focus {
+    text-decoration-color: rgba(var(--bs-primary-rgb), .5);
+  }
+}
+
+.bi {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -.125em;
+  fill: currentColor; // stylelint-disable-line value-keyword-case
+}
+
+.sidebar-nav {
+  .nav-link {
+    padding-inline: .75rem;
+    border-radius: .5rem;
+
+    &:not(.active):hover,
+    &:not(.active):focus {
+      background-color: rgba($bd-purple-bright, .05);
+    }
+
+    &.active {
+      color: var(--bs-body-color);
+      background-color: rgba($bd-purple-bright, .1);
+    }
+  }
+}
+
+.embed-responsive {
+  margin-bottom: 1rem;
+  overflow: hidden;
+  background-color: #000;
+  border-radius: .5rem;
+
+  .page-videos & {
+    margin-top: .5rem;
+  }
+}
+
+
+//
+// Header
+//
+
+.masthead {
+  overflow: hidden;
+
+  @media (min-width: 768px) {
+    position: -webkit-sticky; // stylelint-disable-line value-no-vendor-prefix
+    position: sticky;
+    top: 0;
+  }
+}
+
+.bd-booticon {
+  margin-left: -.75rem;
+  transform: rotate(-5deg);
+
+  @media (max-width: 1024px) {
+    width: 128px;
+    height: auto;
+  }
+}
+
+
+//
+// Download buttons
+//
+
+.btn-link {
+  display: inline-block;
+  padding: .6rem 1.2rem;
+  margin-right: .25rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--bs-primary);
+  border-radius: .5rem;
+  transition: all .2s linear;
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #005580;
+  }
+}
+
+.btn-link-ratchet {
+  background-color: #b60c32;
+
+  &:hover {
+    background-color: #0f1953;
+  }
+}
+
+
+//
+// List page
+//
+.list {
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    display: block;
+    margin-bottom: .5rem;
+  }
+  span {
+    float: right;
+    color: #var(--bs-gray-600);
+  }
+}

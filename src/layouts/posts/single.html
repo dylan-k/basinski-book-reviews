@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="posts-container mx-auto my-5">
+  <div class="post">
+    <h1 class="post-title fw-600">{{ .Page.Title }}</h1>
+    {{ partial "author-info" (dict "context" .) -}}
+
+    {{- if .Page.Params.video -}}
+      {{- partial "video" (dict "context" .) -}}
+    {{- end -}}
+
+    {{ .Content }}
+  </div>
+
+  <div class="related">
+
+  </div>
+
+
+<section class="next-prev">
+
+          {{ with .PrevInSection }}
+          <p>&larr; previous: <a href="{{ .Permalink }}"> {{ .Title }}</a></p>
+          {{ end }}
+
+
+          {{ with .NextInSection }}
+          <p>&rarr; next:
+          <a href="{{ .Permalink }}">{{ .Title }}</a> </p>
+          {{ end }}
+
+</section>
+
+
+
+
+
+
+</div>
+{{- end }}
