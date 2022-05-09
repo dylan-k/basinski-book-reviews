@@ -13,13 +13,11 @@
           </a>
         </h1>
 
-        {{ partial "author-info" (dict "context" . "lazyload" $lazyload) -}}
+        <p>{{ .Params.author }}</p>
 
-        {{ if .Page.Params.video -}}
-          {{- partial "video" (dict "context" . "lazyload" $lazyload) -}}
-        {{- end }}
+        <p>{{ .Summary }}</p>
 
-        {{ .Content }}
+        <p><a class="float-end" href="{{ .RelPermalink }}">Read More &rarr;</a></p>
       </div>
     {{- end }}
   </div>
