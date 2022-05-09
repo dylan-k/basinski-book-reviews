@@ -11,11 +11,11 @@
 <meta name="robots" content="{{ . }}">
 {{- end }}
 
-<title>{{ if .IsHome }}{{ .Site.Title | markdownify }} · {{ .Site.Params.description | markdownify }}{{ else }}{{ .Title | markdownify }} | {{ .Site.Title | markdownify }}{{ end }}</title>
+<title>{{ if .IsHome }}{{ .Site.Title | markdownify }} · {{ .Site.Params.description | markdownify }}{{ else }}{{ .Title | markdownify }} by {{ .Page.Params.author | markdownify }} &sect; Michael Basinski's Book Reviews{{ end }}</title>
 
 {{ partial "stylesheet" . }}
 
-<link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | absURL }}" title="{{ .Site.Title }}">
+<link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | absURL }}" title="nocategories.net RSS Feed">
 
 {{ partial "favicons" . }}
 {{ partial "social" . }}

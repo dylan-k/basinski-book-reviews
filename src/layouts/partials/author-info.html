@@ -1,10 +1,15 @@
-{{- /* Accepts 2 parameters, the "context" and "lazyload" */ -}}
+{{- /* author of item being reviewed  */ -}}
+{{- /* defined in yaml frontmatter for each post  */ -}}
 
 {{- $author := .context.Page.Params.author -}}
 {{- $cite := .context.Page.Params.cite -}}
-<div class="d-flex align-items-center mb-4 text-muted author-info">
-    <span>by {{ $author }}</span>
-  <span class="d-flex align-items-center ms-3">
-    {{ $cite }}
-  </span>
-</div>
+{{- $link_bio := .context.Page.Params.link_bio -}}
+
+<p itemprop="author" itemscope itemtype="https://schema.org/Person">
+{{- with .context.Page.Params.link_bio -}}
+    <a href="{{ $link_bio }}"><span itemprop="name">{{ $author }}</span></a>
+    <meta itemprop="url" content="{{ $link_bio }}" />
+{{- else }}
+  <span itemprop="name">{{ $author }}</span>
+{{- end }}
+</p>

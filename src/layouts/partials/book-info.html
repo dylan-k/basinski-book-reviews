@@ -1,0 +1,11 @@
+{{- /* author of item being reviewed  */ -}}
+{{- /* defined in yaml frontmatter for each post  */ -}}
+
+{{- $title := .context.Page.Params.title -}}
+{{- $link_book := .context.Page.Params.link_book -}}
+
+{{- with .context.Page.Params.link_book -}}
+<p class="text-end">
+  Get a copy of <a href="{{ $link_book }}">{{ $title }}</a> &rarr;
+</p>
+{{- end }}

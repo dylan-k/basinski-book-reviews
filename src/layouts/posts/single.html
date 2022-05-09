@@ -1,39 +1,48 @@
 {{ define "main" }}
+
 <div class="posts-container mx-auto my-5">
-  <div class="post">
-    <h1 class="post-title fw-600">{{ .Page.Title }}</h1>
-    {{ partial "author-info" (dict "context" .) -}}
+  <article itemscope itemtype="http://schema.org/Review">
 
-    {{- if .Page.Params.video -}}
-      {{- partial "video" (dict "context" .) -}}
-    {{- end -}}
+    <header itemprop="itemReviewed" itemscope itemtype="https://schema.org/Book">
+      <h1 class="post-title fw-600" itemprop="name">{{ .Page.Title }}</h1>
+      <meta itemprop="url" content="{{ .Page.Params.link_book }}" />
+      <div class="text-muted author-info">
+        {{ partial "author-info" (dict "context" .) -}}
+        <p> {{ .Page.Params.cite }} </p>
+      </div>
+    </header>
 
-    {{ .Content }}
-  </div>
+    <main itemprop="reviewBody">
+      {{ .Content }}
+      {{ partial "book-info" (dict "context" .) -}}
+    </main>
 
-  <div class="related">
-
-  </div>
-
-
-<section class="next-prev">
-
-          {{ with .PrevInSection }}
-          <p>&larr; previous: <a href="{{ .Permalink }}"> {{ .Title }}</a></p>
-          {{ end }}
-
-
-          {{ with .NextInSection }}
-          <p>&rarr; next:
-          <a href="{{ .Permalink }}">{{ .Title }}</a> </p>
-          {{ end }}
-
-</section>
+    {{/* author of review  */}}
+    <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+      <meta itemprop="url" content="https://en.wikipedia.org/wiki/Michael_Basinski" />
+      <meta itemprop="name" content="Michael Basinski" />
+    </span>
 
 
 
+  </article>
+
+ <div class="related"></div>
+
+  <nav class="next-prev">
+
+    {{ with .PrevInSection }}
+    <p>&larr; previous: <a href="{{ .Permalink }}"> {{ .Title }}</a></p>
+    {{ end }}
 
 
+    {{ with .NextInSection }}
+    <p>&rarr; next:
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </p>
+    {{ end }}
+
+  </nav>
 
 </div>
 {{- end }}
