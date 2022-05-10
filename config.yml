@@ -35,7 +35,7 @@ paginate:               5
 rssLimit:               10
 
 permalinks:
-  posts:                "/:title/"
+  posts:                "/:filename/"
 
 related:
   includeNewer: true

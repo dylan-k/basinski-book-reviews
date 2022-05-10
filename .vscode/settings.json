@@ -3,6 +3,14 @@
     {
       "filePath": "config.yml",
       "group": "Default"
+    },
+    {
+      "filePath": "README.md",
+      "group": "Default"
+    },
+    {
+      "filePath": "package.json",
+      "group": "Default"
     }
   ]
 }

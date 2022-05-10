@@ -1,20 +1,20 @@
 {
-  "name": "bootstrap-blog",
-  "description": "Official blog for Bootstrap.",
+  "name": "basinski-book-reviews",
+  "description": "Michael Basinski's Book Reviews",
   "version": "1.0.0",
   "private": true,
-  "author": "The Bootstrap Authors (https://github.com/twbs/blog/graphs/contributors)",
+  "author": "Michael Basinski",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twbs/blog.git"
+    "url": "git+https://github.com/dylan-k/basinski-book-reviews"
   },
   "bugs": {
-    "url": "https://github.com/twbs/blog/issues"
+    "url": ""
   },
   "main": "",
   "keywords": [],
   "license": "MIT",
-  "homepage": "https://blog.getbootstrap.com",
+  "homepage": "https://nocategories.net/basinski-book-reviews/",
   "hugo-bin": {
     "buildTags": "extended"
   },
